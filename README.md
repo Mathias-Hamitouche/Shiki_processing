@@ -11,3 +11,5 @@ Shiki Processing is made for extra post-processing steps for LC-MS /GC-MS data p
 impossible if : H/C = 0, RDBE < 0, RDBE > C ; unlikely if : O/C = 0 and N/C > 0.5, RDBE/C > 0.8 ; plausible : all of the remaining features 
 
 This script is my first python script I have ever made so feedbacks are heavily appreciated !
+
+Contact at mathias.hamitouche@univ-poitiers.fr
