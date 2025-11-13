@@ -8,7 +8,7 @@ Shiki Processing is made for extra post-processing steps for LC-MS /GC-MS data p
 - Deleting all features which has undetermined chemical formulas
 - Determine the plausibility of chemical formulas using atom ratios and RDBE and delete features with impossible chemical formula :
 
-impossible if : H/C = 0, RDBE < 0, RDBE > C ; unlikely if : O/C = 0 and N/C > 0.5, RDBE/C > 0.8 ; plausible : all of the remaining features 
+impossible if : H/C = 0, RDBE < 0, RDBE > C ; unlikely if : O/C = 0 and N/C > 0.5, RDBE/C > 0.8, O/C < 0.1, O/C < 2 ; plausible : all of the remaining features 
 
 This script is my first python script I have ever made so feedbacks are heavily appreciated !
 
