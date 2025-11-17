@@ -10,6 +10,12 @@ Shiki Processing is made for extra post-processing steps for LC-MS /GC-MS data p
 
 impossible if : H/C = 0, RDBE < 0, RDBE > C ; unlikely if : O/C = 0 and N/C > 0.5, RDBE/C > 0.8, O/C < 0.1, O/C < 2 ; plausible : all of the remaining features 
 
+
+- Creates a mgf file for molecular networking depending on the analysis
+
+GC-EI-MS : creates pseudo MS/MS based on mass spectras with similar retention time (delta RT = 0.1 min)
+LS-ESI-MS/MS : gets the real MS/MS but only with features that made it through the script filtering
+LS-ESI-MS : No .mgf file generated
 This script is my first python script I have ever made so feedbacks are heavily appreciated !
 
 Contact at mathias.hamitouche@univ-poitiers.fr
